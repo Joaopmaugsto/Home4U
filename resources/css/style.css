@@ -1,0 +1,184 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Header and Navigation Section */
+
+header {
+    background-color: #d7e1ec;
+    display: block;
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+    padding-bottom: auto;
+}
+
+.nav-bar {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.nav-bar a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav-bar a li:hover {
+    background-color: white;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Banner Section and Search bar */
+
+.banner-container {
+    display: flex;
+    background-image: url('../img/bannera.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 1150px;
+    max-width: 100%;
+    margin: 0 auto 40px auto;
+}
+
+.text-over {
+    color: #550600;
+    font-weight: bold;
+    font-size:2.7rem;
+    margin: 30px;
+    padding: 20px 110px;
+    width: 100%;
+    left: 0;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 0 auto;
+    width: 80%;
+    position: absolute;
+    background: transparent;
+    z-index: 2;
+    padding : 600px 140px;
+}
+
+.text-search {
+    width: 80%;
+}
+
+.text-search::placeholder{
+    color: gray;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+
+.buttonClass {
+    font-size: 17px;
+    font-family: Arial;
+    width:140px;
+    height:50px;
+    margin: 0 10px;
+    border-width: 1px;
+    border-radius: 7px;
+    color:#fff;
+    border-color:rgba(139, 87, 42, 1);
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    left: 2%;
+    text-shadow: 0px 1px 0px rgba(10, 5, 0, 1);
+    background:linear-gradient(rgba(139, 87, 42, 1), rgba(155, 155, 155, 1));
+}
+  
+  .buttonClass:hover {
+    background: linear-gradient(rgba(155, 155, 155, 1), rgba(139, 87, 42, 1));
+  }
+                
+/* Team Section */
+
+.slogan {
+    color: #550600;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 7px;
+}
+
+.agents {
+    background-color: #575A61;
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.agent {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    flex-basis: 280px;
+}
+
+.agents img {
+    width: 350px;
+    height: 500px;
+}
+
+/* Footer */
+
+footer {
+    color: #550600;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1.5rem;
+    color: #4d4b4b;
+    left: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact .copyright {
+    padding-top: 20px;
+}
